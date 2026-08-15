@@ -1,0 +1,16 @@
+  name: "获取单篇文章"
+  request:
+    url: "https://jsonplaceholder.typicode.com/posts/1"
+    method: Get
+  response:
+    status_code: 200
+    json:
+      userId: 1
+      id: 1
+  extract:
+    userId: [json,$.id]
+
+
+
+
+

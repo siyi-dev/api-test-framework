@@ -1,0 +1,18 @@
+name: "创建新文章"
+request:
+  url: "https://jsonplaceholder.typicode.com/posts"
+  method: POST
+  headers:
+    Content-Type: application/json
+  json:
+    userId: "{{userId}}"
+    title: "foo"
+    body: "bar"
+
+response:
+  status_code: 201
+  json:
+    id: 101
+    userId: "1"
+
+
