@@ -1,0 +1,16 @@
+# IDE 配置
+.idea/
+*.iml
+
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+
+# 日志和报告
+logs/
+allure-results/
